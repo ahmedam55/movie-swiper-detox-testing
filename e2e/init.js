@@ -2,6 +2,10 @@ const detox = require('detox');
 const config = require('../package.json').detox;
 const adapter = require('detox/runners/jest/adapter');
 const specReporter = require('detox/runners/jest/specReporter');
+const dotenv = require('dotenv')
+
+//to load the username and password specified in the .env
+dotenv.config()
 
 // Set the default timeout
 jest.setTimeout(25000);
@@ -13,7 +17,6 @@ jasmine.getEnv().addReporter(specReporter);
 
 beforeAll(async () => {
   await detox.init(config);
-  // await device.disableSynchronization()
 });
 
 beforeEach(async () => {
