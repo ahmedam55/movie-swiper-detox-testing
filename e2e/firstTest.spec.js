@@ -197,7 +197,7 @@ describe('Project Test Suite', () => {
     const searches = [
       { query: 'xmen', results: ['X-Men: Apocalypse', 'X-Men: Days of Future Past'] },
       { query: 'avengers', results: ['Avengers: Endgame', 'Avengers: Age of Ultron'] },
-      { query: 'wolverine', results: ['Logan', 'X-Men Origins: Wolverine'] },
+      { query: 'wolverine', results: ['Logan', 'The Wolverine'] },
     ]
 
     for (let i = 0; i < searches.length; i++) {
