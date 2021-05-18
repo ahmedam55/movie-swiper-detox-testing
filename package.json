@@ -18,7 +18,7 @@
     "react": "^16.8.3",
     "react-native": "^0.59.8",
     "react-native-easy-toast": "^1.2.0",
-    "react-native-fast-image": "^6.0.0",
+    "react-native-fast-image": "^8.3.0",
     "react-native-gesture-handler": "^1.2.1",
     "react-native-linear-gradient": "^2.5.4",
     "react-native-offline": "^4.3.1",
